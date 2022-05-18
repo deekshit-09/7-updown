@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+</head>
+<body>
+   <!---------------------------------     title ribbon -------------------------------------------->
+    <div class="ribbon">
+        <img  src="ribbon.png" alt=""  height="300px" width="1200px">
+        <div class="title">
+            7up down
+        </div>
+    </div>
+    <!--------------------------------     title ribbon ----------------------------------------------->
+    <span><div class="cont"><span><img src="coins.png" height="80px" alt=""></span> <div class="remain" > <p id="wallet">2000 </p> </div> </div></span>
+    <div class="text1">
+        <center> select options </center> 
+    </div>
+    <!------------------------------- table for the options---------------- -->
+    <table cellspacing="30" class="table">
+        <th>
+                <div class="container">
+                    <div class="top"> 2 to 6</div>  <br>
+                <div class="radiob">
+                    <!--------- label for the radio button ------------------------------------------>
+                    <div><label class="rb" for="6"> 
+                <input type="radio" class="radiob" id="ch1" name="opt" value="6">
+            </label>
+            
+        </div>
+                </div>
+                <div class="bot">WIN</div> <br>
+                <div class="prize"> <img height="100px" src="coins.png" alt=""><p class="para" id="r1">500 </p> </div>
+                </div>
+        </th>
+        <th>
+            <div class="container" >
+                <div class="top"> 7 </div>  <br>
+                <div class="radiob">
+                     <!--------- label for the radio button ------------------------------------------>
+                     <div><label class="rb" for="7"> 
+                        <input type="radio" class="radiob" id="ch2" name="opt" value="7">
+                    </label>
+                </div>
+            </div>
+        
+                <div class="bot">WIN</div> <br>
+                <div class="prize"> <img height="100px" src="coins.png" alt=""><p class="para" id="r2">750 </p> </div>
+            </div>
+        </th>
+        <th>
+      
+                <div class="container">
+                    <div class="top"> 7 to 12</div>  <br>
+                    <div class="radiob"> 
+                         <!--------- label for the radio button ------------------------------------------>
+                    <div><label class="rb" for="12"> 
+                        <input type="radio" class="radiob" id="ch3" name="opt" value="7">
+                    </label>
+                </div>
+                </div>
+                     <div class="bot">WIN</div> <br>
+                     <div class="prize"> <img height="100px" src="coins.png" alt=""><p class="para" id="r3">500</p> </div>
+                </div>
+           
+        </th>
+    </table>
+   <!-------------------------------------------- end of the table -------------------------->
+   <div class="container1">
+       <button class="minus" onclick="minus()">-</button>
+      <p class="para1" id="bet"> 250  </pre></p>
+       <button class="add" onclick="add()">+</button>
+   </div>
+   <!------------------------------------ rolling button --------------------------------------------------->
+   <center><button class="roll" onclick="change();"> roll now</button></center>
+    <!-------------------------------------------- dice images ---------------->
+   <center> <table class="dice"cellspacing="40">
+        <th><img id="slot1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Dice-1-b.svg/1024px-Dice-1-b.svg.png" height="150px" alt=""></th>
+        <th><img id="slot2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Dice-2-b.svg/1200px-Dice-2-b.svg.png" height="150px" alt=""></th>
+        <!-------------------------------------------------- other dice numbers --------------------------------------------------------------------------------------->
+        <!-- <tr>
+            <td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dice-3-b.svg/1200px-Dice-3-b.svg.png" height="150px" alt=""></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Dice-4-b.svg/557px-Dice-4-b.svg.png" height="150px" alt=""></td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Dice-5-b.svg/1024px-Dice-5-b.svg.png" height="150px" alt=""></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Dice-6-b.svg/1024px-Dice-6-b.svg.png" height="150px" alt=""></td>
+        </tr> -->
+         <!-------------------------------------------------- other dice numbers --------------------------------------------------------------------------------------->
+    </table></center>
+
+    <script src="random.js"></script>
+</body>
+</html>

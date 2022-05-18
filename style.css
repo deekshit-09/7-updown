@@ -1,0 +1,156 @@
+body {
+    background-image: url('bgp.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+  }
+  .ribbon{
+      padding-left: 15%;
+      background-color: rgba(0, 0, 0, 0.397);
+      margin: 0;
+  }
+  .title{
+      color: gold;
+      font-size: 7rem;
+      position: absolute;
+      top: 30px;
+      left:630px
+  }
+  .text1{
+    font-size: 5rem;
+    color: white;
+    font-family: 'sans-serif'  ;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+  .bot{
+      padding-top: 40px;
+  }
+  .container{
+      padding-top: 20px;
+      margin-left: 90px;
+      background-color: rgba(255, 217, 0, 0.903);
+      height: 400px;
+      width: 300px;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+      border-bottom-right-radius: 5%;
+  }
+  .table{
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  .top, .bot{
+      color: chocolate;
+      font-size: 2rem;
+  }
+
+  
+  .radiob {
+    background-color: rgba(210, 105, 30, 0.581);
+    border-radius: 100px;
+    height: 100px;
+
+}
+  .rb{
+      height: 40px;
+      width:40px;
+      border: 2px solid #444;
+      border-radius: 50%;
+      position: relative;
+      top: 25px;
+      left: 125px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+  }
+  .rb .check{
+      width: calc(100%-6px); 
+      height: calc(100%-6px);
+      border-radius: 50%;
+      background-color: #222;
+  }
+  .rb input{
+      display:flex;
+  }
+  .radiob:checked + .rdl{
+     background: black;
+  }
+  .prize{
+      background: chocolate;
+      position: relative;
+      bottom: 2px;
+      display:inline-flexbox;
+      border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+      border-bottom-right-radius: 15%;
+  }
+  .coins{
+      padding-left: 0;
+  }
+  .para {
+      background: chocolate;
+  }
+  .para{
+      font-size: 2rem;
+      color: black;
+  }
+  .container1{
+      background-color: black;
+      padding-left: 500px;
+      padding-top: 50px;
+      
+      color: wheat;
+  }
+  .para1{
+      display: inline-block;
+      position: absolute;
+      color: gold;
+      background-color: black;
+      font-size: 2rem;
+      right: 30px;
+      top: 1065px;
+      right: 750px;
+  }
+  .add{
+      display: inline-block;
+      position: absolute;
+      right: 30px;
+      top: 1105px;
+      background-color: gold;
+      right: 500px;
+      cursor: pointer;
+  }
+
+  .minus{
+    position: absolute;
+    background-color: gold;
+    top: 1105px;
+    cursor: pointer;
+  }
+  .roll{
+      margin-top: 50px;
+      padding: 25px 75px 25px 75px;
+      color: gold;
+      background-color: chocolate;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 2rem;
+      cursor: pointer;
+  }
+  .cont{
+     font-size: 1.8rem;
+     background-color: chocolate;
+     margin-left: 1200px;
+     margin-right: 150px;
+     margin-bottom: 30px;
+     
+  }
+  .remain{
+      position: absolute;
+      font-weight:bolder;
+      top: 308px;
+      right: 180px;
+  }
