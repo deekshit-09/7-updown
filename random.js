@@ -91,11 +91,11 @@ function minus()
 
 function validate(sum){
     var v=0;
-    if(sum==7 && document.getElementById("ch1").checked)
+    if(sum==7 && document.getElementById("ch2").checked)
     {
         coins=coins + (bet*3);
     }
-    else if(sum<7 && document.getElementById("ch2").checked )
+    else if(sum<7 && document.getElementById("ch1").checked )
     {
         coins = coins + (bet*2);
     }
